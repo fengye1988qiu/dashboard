@@ -15,7 +15,7 @@ export class AppComponent {
   sort: any;
   total: number;
   loading: boolean;
-  timer: NodeJS.Timer;
+  timer: any;
   updatedAt: Date = new Date();
 
   constructor(private appServer: AppService) {
