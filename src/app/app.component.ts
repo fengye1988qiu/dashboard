@@ -68,4 +68,9 @@ export class AppComponent {
     }
     this.getSecurities();
   }
+
+  ngOnDestroy() {
+    clearTimeout(this.timer);
+  }
+  
 }
